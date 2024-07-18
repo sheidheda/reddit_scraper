@@ -7,7 +7,7 @@
 <br>
 <br>
 <p align="center">
-  <img src="https://github.com/marcotav/predicting-the-number-of-comments-on-reddit/blob/master/Reddit-logo.png" 
+  <img src="https://github.com/sheidheda/reddit_scraper/blob/main/images/Reddit-logo.png" 
        width="150" height="150">
 </p>
 <br>
@@ -41,7 +41,7 @@ This project had three steps:
   <br>
 <br>
 <p align="center">
-  <img src="https://github.com/marcotav/predicting-the-number-of-comments-on-reddit/blob/master/redditpage.png" 
+  <img src="https://github.com/sheidheda/reddit_scraper/blob/main/images/redditpage.png" 
        width="750">
 </p>
 <br>
@@ -197,7 +197,7 @@ X_thread = pd.DataFrame(X_title.todense(),
 df_all = pd.concat([df_subred,X_thread],axis=1)                     
 ```
 
-<img src="https://github.com/marcotav/predicting-the-number-of-comments-on-reddit/blob/master/redditwordshist.png" width="400">
+<img src="https://github.com/sheidheda/reddit_scraper/blob/main/images/redditwordshist.png" width="400">
 
 
 <a id = 'models'></a>  
@@ -288,5 +288,5 @@ def cv_score(X,y,cv,n_estimators,max_depth):
 The most important features according to the `RandomForestClassifier` are shown in the graph below:
 <br>
 
-   <img src="https://github.com/marcotav/predicting-the-number-of-comments-on-reddit/blob/master/redditRF.png" width="400">
+   <img src="https://github.com/sheidheda/reddit_scraper/blob/main/images/redditRF.png" width="400">
 
